@@ -28,7 +28,7 @@ every line can be traced to its commit.
 
 ### Changed
 
-- Re-vendored `scripts/inertia-drift-lint` at 2.1.0, whose floor covers all text
+- Re-vendored `scripts/dmf-lint` at 2.1.0, whose floor covers all text
   artifact formats (`6cd6af4`).
 - Index titles and timestamps normalized (`c56a2a6`).
 

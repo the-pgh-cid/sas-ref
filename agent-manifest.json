@@ -39,7 +39,7 @@
   },
   "tools": [
     {
-      "tool_id": "inertia-drift-lint",
+      "tool_id": "dmf-lint",
       "description": "DMF invariant linter: fences, pointers, manifests, status lines, style floor."
     },
     {

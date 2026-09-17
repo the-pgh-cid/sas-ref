@@ -125,7 +125,7 @@ together. The contract is [`AGENTS.md`](AGENTS.md); the machine-readable
 descriptor is [`agent-manifest.json`](agent-manifest.json), validated against
 [`agent-manifest.schema.json`](agent-manifest.schema.json) in CI; and the
 invariants are checked by
-[`scripts/inertia-drift-lint`](scripts/inertia-drift-lint) on every push:
+[`scripts/dmf-lint`](scripts/dmf-lint) on every push:
 fences, pointers, manifest shape, status lines, and the style floor of no em
 dashes and no ellipses in artifacts.
 

@@ -53,7 +53,7 @@ anything written to disk or handed to a person.
 - No em dashes. Use commas, semicolons, colons, or restructure.
 - No ellipses. Finish the thought or cut it.
 - Mechanical rules are enforced by the linter, never by the agent's own
-  reasoning. The agent writes naturally; `inertia-drift-lint` catches
+  reasoning. The agent writes naturally; `dmf-lint` catches
   violations after the fact. Spending inference on style compliance is a
   framework violation.
 
@@ -312,7 +312,7 @@ header pinning its source page revision.
 ## LOCAL
 
 - **Allowed tools**: file operations, git, the bundled linter
-  (scripts/inertia-drift-lint), the harvest pipeline
+  (scripts/dmf-lint), the harvest pipeline
   (tools/fetch_rosetta_sas.py; standard library only), and markdown, CSV,
   and JSON tooling. No runtime or dependency install required.
 - **Prohibited**: stripping, editing, or reordering a provenance header;
